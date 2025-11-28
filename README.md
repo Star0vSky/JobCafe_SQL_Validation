@@ -48,6 +48,7 @@ LEFT JOIN interviews AS inter
     ON inter.applications_id = app.id
 WHERE inter.date IS NULL
    OR inter.date = '';
+   ```
 
 ## What it demonstrates
 
